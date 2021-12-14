@@ -2,6 +2,9 @@
 
 With this API you can easily register new drivers / vehicles and manage them.
 
+## Setup
+[Here is detailed guide](SETUP.md) on how to setup the app
+
 ## Overview
 Made with Pure django (no django rest framework, no forms, no templates)
 
