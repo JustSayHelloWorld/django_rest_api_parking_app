@@ -13,7 +13,7 @@ You should always use JSON (application/json) in your requests to receive or sen
 
 
 
-####common_functional is folder that consist of helpers and handlers:
+#### common_functional is folder that consist of helpers and handlers:
 
 * helpers.py - common serving functions for data formatting and making response.
 * handlers.py - Class based fucntions to serve all the basic CRUD operations. (you should override this class in specific view if you have some app-view-specific logic that differs from common)
@@ -30,7 +30,7 @@ There is no authentication for endpoints.
 * ('Updated successfully', 200)
 * ('Deleted successfully', 200)
 
-###View specific codes (Vehicles):
+### View specific codes (Vehicles):
 * ('Driver successfully set', 200)
 * ('Driver successfully unset', 200)
 * ('Driver unavailable', 404)
